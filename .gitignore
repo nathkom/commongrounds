@@ -1,0 +1,57 @@
+node_modules/
+dist/
+build/
+.DS_Store
+.env
+.env.local
+.env*.local
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+
+# Dependencies in "prototype-pedro"
+prototype-pedro/node_modules
+prototype-pedro/.pnp
+prototype-pedro.pnp.js
+prototype-pedro.yarn/install-state.gz
+
+# Testing in "prototype-pedro"
+prototype-pedro/coverage
+
+# Next.js in "prototype-pedro"
+prototype-pedro/.next/
+prototype-pedro/out/
+
+# Production in "prototype-pedro"
+prototype-pedro/build
+
+# Misc in "prototype-pedro"
+prototype-pedro.DS_Store
+prototype-pedro*.pem
+
+# Debug in "prototype-pedro"
+prototype-pedronpm-debug.log*
+prototype-pedroyarn-debug.log*
+prototype-pedroyarn-error.log*
+
+# Local env files in "prototype-pedro"
+prototype-pedro.env*.local
+prototype-pedro.env.local
+prototype-pedro.env.development.local
+prototype-pedro.env.test.local
+prototype-pedro.env.production.local
+
+# Vercel in "prototype-pedro"
+prototype-pedro.vercel
+
+# TypeScript in "prototype-pedro"
+prototype-pedro*.tsbuildinfo
+prototype-pedronext-env.d.ts
+
+# Sentry in "prototype-pedro"
+prototype-pedro.sentryclirc
+
+# Sentry Config File in "prototype-pedro"
+prototype-pedro.env.sentry-build-plugin
